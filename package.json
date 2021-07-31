@@ -1,0 +1,30 @@
+{
+  "name": "22-JWT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start:dev": "nodemon --tls-min-v1.0 app.js",
+    "start:prod": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "joi": "^17.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.0.3",
+    "sequelize": "^6.6.2",
+    "tedious": "^11.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
